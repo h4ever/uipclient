@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/myjob/陕西移动/后台接口/lib/commons-pool2-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/myjob/陕西移动/后台接口/lib/jedis-3.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/myjob/陕西移动/后台接口/lib/netty-3.10.6.Final.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+  <property name="hibernate.connection.password">yj8BKCLjEC~</property>
+  <property name="hibernate.connection.url">jdbc:oracle:thin:@(description=(address_list=(load_balance=off)(failover=on)(address=(protocol=tcp)(host=10.131.133.96)(port=1521))(address=(protocol=tcp)(host=10.131.133.98)(port=1521))(address=(protocol=tcp)(host=10.131.133.92)(port=1521))(address=(protocol=tcp)(host=10.131.133.94)(port=1521)))(connect_data=(service_name=ngcusdb)(failover_mode=(type=select)(method=basic))))</property>
+  <property name="hibernate.connection.username">ucr_asrv</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+  <!-- c3p0 connection pool configuration-->
+  <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+  <property name="hibernate.c3p0.acquire_increment">3</property>
+  <property name="hibernate.c3p0.idle_test_period">60</property>
+  <property name="hibernate.c3p0.max_size">15</property>
+  <property name="hibernate.c3p0.max_statements">100</property>
+  <property name="hibernate.c3p0.min_size">5</property>
+  <property name="hibernate.c3p0.timeout">120</property>
+  <mapping class="com.z2daddy.uip.pojo.TSceIntrointfbuffget"/>
+  <mapping class="com.z2daddy.uip.pojo.TSceIntrointfbuffset"/>
+ </session-factory>
+</hibernate-configuration>
